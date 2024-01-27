@@ -21,10 +21,6 @@ nav{
    justify-content: center;
    
    
-}
-.logo{
-   position: absolute;
-}
 
 nav ul li{
    display: inline-block;
