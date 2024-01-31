@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: center;
+background-color: silver;
+height: 60px;
+
+    
+}
+
+.logo {
+    
+   position: absolute;
+   left:0;
+   
+   top:5px ;
+   font-size: x-large;
+    
+    
+
+
+}
+
+@media (max-width:500px) {
+    .logo{
+        position:absolute;
+        font-size:15px;
+         left: 0%;
+         top: 5px;
+        
+     
+     
+     }
+     
+    
+}
+
+nav ul li {
+display: inline-block;
+margin-top: 20px;
+}
+nav ul li a{ 
+
+    color: black;
+     text-decoration: none;
+     padding: 10px;
+
+}
+
+
+
+body{
+    background-image: url(pexels-lukas-574069.jpg);
+background-position:100%;
+background-size: cover;
+
+background-repeat: no-repeat;
+height: 100vh;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+width: 100%;
+gap: 70px; 
+
+
+}
+
+
+
+    
+
+.container .box1{
+    flex-basis: 50%;
+    
+}
+
+
+
+
+ .container .box1 h1{
+        font-size: 2em;
+        font-family:'Courier New', Courier, monospace ;
+        text-shadow: rgb(26, 25, 25) -1px -5px 5px ;
+
+    }
+
+    .container .box2{
+
+flex-basis:30% ;
+/*box-shadow: -30px 4px 50px silver;
+padding: 40px;
+border-radius: 40px;*/
+    }
+    @media (max-width:700px) {
+        
+    }
+
+    .container .box1:hover{
+        
+        flex-basis:30% ;
+        box-shadow: -30px 4px 10px silver;
+        padding: 1px;
+        border-radius: 20px;
+        transition: 3s  ease-in-out;
+        
+       
+       font-weight: 900;
+            }
+            .container .box1:hover{
+               transition: 7s;
+                font-size:large;
+                    }
+@media (max-width:700px) {
+    .container .box1:hover{
+        transition:3s;
+         font-size:15px;
+             }
+    
+}
+
+     .container .box2 p{
+font-size: large;
+        font-weight: 700 ;
+        font-family:'Courier New', Courier, monospace ;
+  
+     }
+     @media (max-width:700px){
+        .container .box2 p{
+            font-size: 15px;
+     
+        }
+     
+        }
+        .nahz_co{
+            text-decoration: underline;
+        }
+
+
+        /*the footer section*/
+        footer{
+ position: absolute;
+ bottom:0;
+            width: 100%;
+            background-color: silver;
+       
+         }
+         .last_div1 p b{ 
+         display: block;
+         text-align: center;
+         
+         }
+         .last_div2{
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+         }
+         .last_div2 p{padding-top:10px ;
+         font-weight: 900;
+         
+         }
+         .youtube i{
+            color: rgb(213, 24, 24);
+         }
+         .facebook i {
+            color: blue;
+         }
+         
+         .instagram i {
+            color:rgb(198, 20, 136) ;}
