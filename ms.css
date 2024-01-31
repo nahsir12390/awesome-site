@@ -147,7 +147,9 @@ font-size: large;
 
         /*the footer section*/
         footer{
- 
+   position: absolute;
+   
+bottom:0;
             width: 100%;
             background-color: silver;
        
