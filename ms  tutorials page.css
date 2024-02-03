@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: center;
+background-color: silver;
+height: 60px;
+
+    
+}
+
+    
+    
+
+
+
+nav ul li {
+display: inline-block;
+margin-top: 20px;
+}
+nav ul li a{ 
+
+    color: black;
+     text-decoration: none;
+     padding: 10px;
+
+}
+nav ul li a:hover{
+    padding-left: 5px;
+    transition:1s;
+    font-size: 20px;
+   
+ border-radius: 10px;
+
+}
+nav ul li ul { 
+    display:none;
+    position: absolute;
+    background-color: silver;
+    border-radius: 6px;
+    text-align:center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+
+nav ul li:hover ul{ 
+    display: block;
+    
+
+}
+nav ul li ul li{
+    display: block;
+    
+}
+
+
+body{display: flex;
+    background-image: url(pexels-lukas-574069.jpg);
+background-position:100%;
+background-size: cover;
+flex-direction: column;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+@media (max-width:500px) {
+
+    body{
+        display: flex;
+    
+        background-image: url(pexels-lukas-574069.jpg);
+    background-position:100%;
+    background-size: cover;
+    flex-direction:column;
+    background-repeat: no-repeat;
+    height: vh;
+    }
+    
+
+}
+
+
+.start{
+    margin-top: 30px;
+    color: black;
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+
+    .start{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+}
+
+.paragraph{
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .paragraph{
+      font-size: small;
+        text-align: center;
+    }
+}
+
+
+
+img{
+    display: block;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap:20px; 
+    
+    
+    }
+
+    .container a{
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        font-weight: 900;
+        font-family:'Courier New', Courier, monospace ;
+    }
+    
+    .container a:focus{
+     
+    }
+
+
+    .container a:hover{
+    background-color: silver;
+    
+    transition: 2s;
+    }
+
+
+
+
+
+
+
+        /*the footer section*/
+        footer{
+            display: flex;
+                        background-color: silver;
+                margin-top: auto;
+                justify-content:center;
+                align-items: center;
+                flex-direction: column;
+                    }
+                    .last_div1 p b{ 
+                    display: block;
+          
+                    width: 100%;
+                    }
+                    .last_div2{
+                       display: block;
+                       margin-top: 15px;
+                      
+                    }
+                    .last_div2 p{padding-top:10px ;
+                    font-weight: 900;
+                    
+                    }
+                    .youtube i{
+                       color: rgb(213, 24, 24);
+                    }
+                    .facebook i {
+                       color: blue;
+                    }
+                    
+                    .instagram i {
+                       color:rgb(198, 20, 136) ;}
+                       .whatsapp i {
+                        color: green;
+                       }
