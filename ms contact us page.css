@@ -19,34 +19,6 @@ height: 60px;
     
 }
 
-.logo {
-    
-   position: absolute;
-   left:0;
-   
-   top:5px ;
-   font-size: x-large;
-    
-    
-
-
-}
-
-@media (max-width:500px) {
-    .logo{
- position:absolute;
-        font-size:15px;
-         left: 0%;
-         top: 15px;
-        width: 30px;
-     
-        
-     
-     
-     }
-     
-    
-}
 
 nav ul li {
 display: inline-block;
@@ -64,13 +36,39 @@ nav ul li a:hover{
     padding-left: 5px;
     transition:1s;
     font-size: 20px;
+
+ border-radius: 10px;
+
+}
+nav ul li ul { 
+    display:none;
+    position: absolute;
+    background-color: silver;
+    border-radius: 6px;
+    text-align:center;
+    line-height: 1em;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top:10px ;
+}
+
+
+nav ul li:hover ul{ 
+    display: block;
+    
+
+}
+nav ul li ul li{
+    display: block;
+    
 }
 
 body{
+    display: flex;
     background-image: url(pexels-lukas-574069.jpg);
 background-position:100%;
 background-size: cover;
-
+flex-direction: column;
 background-repeat: no-repeat;
 height: 100vh;
 }
@@ -103,9 +101,24 @@ height: 100vh;
     font-family:'Courier New', Courier, monospace ;
     text-shadow: -9px -5px 5px rgb(20, 16, 16);
     font-size: 30px;
-    margin-left:70px;
+    margin-left:40px;
     margin-top: 40px;
     color: rgb(19, 16, 16);
+}
+
+@media (max-width:600px) {
+
+    .contact_us h1{
+    
+        font-family:'Courier New', Courier, monospace ;
+        text-shadow: -9px -5px 5px rgb(20, 16, 16);
+        font-size: 20px;
+        margin-left:70px;
+        margin-top: 40px;
+        color: rgb(19, 16, 16);
+    }
+    
+    
 }
 .contact_us hr{
     background-color:rgb(11, 11, 11);
@@ -113,9 +126,23 @@ height: 100vh;
     height: 5px;
     border: none;
     margin-bottom: 5px;
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
+@media (max-width:600px) {
+
+    .contact_us hr{
+        background-color:rgb(11, 11, 11);
+        width: 90%;
+        height: 5px;
+        border: none;
+        margin-bottom: 5px;
+        margin-left: 50px;
+    }
+    
+
+
+}
 
 .contact_input{
     width: 300px;
@@ -184,22 +211,22 @@ button:hover{
 /*this section is for the footer*/
 
 footer{
-    position: absolute;
-    bottom:0;
-     height: 15vh;
-               width: 100%;
-               background-color: silver;
-        
+    display: flex;
+                background-color: silver;
+        margin-top: auto;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
             }
             .last_div1 p b{ 
             display: block;
-            text-align: center;
-            
+  
+            width: 100%;
             }
             .last_div2{
                display: block;
                margin-top: 15px;
-               text-align: center;
+              
             }
             .last_div2 p{padding-top:10px ;
             font-weight: 900;
