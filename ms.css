@@ -10,36 +10,14 @@ nav{
     justify-content: center;
 background-color: silver;
 height: 60px;
-
+flex-wrap: nowrap;
     
 }
 
-.logo {
-    
-   position: absolute;
-   left:0;
-   
-   top:5px ;
-   font-size: x-large;
     
     
 
 
-}
-
-@media (max-width:500px) {
-    .logo{
-        position:absolute;
-        font-size:15px;
-         left: 0%;
-         top: 5px;
-        
-     
-     
-     }
-     
-    
-}
 
 nav ul li {
 display: inline-block;
@@ -52,14 +30,42 @@ nav ul li a{
      padding: 10px;
 
 }
+nav ul li a:hover{
+    padding-left: 5px;
+    transition:1s;
+    font-size: 20px;
+   
+ border-radius: 10px;
+
+}
+nav ul li ul { 
+    display:none;
+    position: absolute;
+    background-color: silver;
+    border-radius: 6px;
+    text-align:center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
 
 
+nav ul li:hover ul{ 
+    display: block;
+    
 
-body{
+}
+nav ul li ul li{
+    display: block;
+    
+}
+
+
+body{display: flex;
     background-image: url(pexels-lukas-574069.jpg);
 background-position:100%;
 background-size: cover;
-
+flex-direction: column;
 background-repeat: no-repeat;
 height: 100vh;
 }
@@ -147,33 +153,36 @@ font-size: large;
 
         /*the footer section*/
         footer{
-   position: absolute;
-   
-bottom:0;
-            width: 100%;
-            background-color: silver;
-       
-         }
-         .last_div1 p b{ 
-         display: block;
-         text-align: center;
-         
-         }
-         .last_div2{
-            display: block;
-            margin-top: 15px;
-            text-align: center;
-         }
-         .last_div2 p{padding-top:10px ;
-         font-weight: 900;
-         
-         }
-         .youtube i{
-            color: rgb(213, 24, 24);
-         }
-         .facebook i {
-            color: blue;
-         }
-         
-         .instagram i {
-            color:rgb(198, 20, 136) ;}
+            display: flex;
+                        background-color: silver;
+                margin-top: auto;
+                justify-content:center;
+                align-items: center;
+                flex-direction: column;
+                    }
+                    .last_div1 p b{ 
+                    display: block;
+          
+                    width: 100%;
+                    }
+                    .last_div2{
+                       display: block;
+                       margin-top: 15px;
+                      
+                    }
+                    .last_div2 p{padding-top:10px ;
+                    font-weight: 900;
+                    
+                    }
+                    .youtube i{
+                       color: rgb(213, 24, 24);
+                    }
+                    .facebook i {
+                       color: blue;
+                    }
+                    
+                    .instagram i {
+                       color:rgb(198, 20, 136) ;}
+                       .whatsapp i {
+                        color: green;
+                       }
