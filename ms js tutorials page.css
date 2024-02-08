@@ -61,6 +61,7 @@ nav ul li ul li{
 
 
 
+
 body{
     display: flex;
 
@@ -70,7 +71,7 @@ background-position:100%;
 background-size: cover;
 flex-direction: column;
 background-repeat: no-repeat;
-height: 250vh;
+height: 180vh;
 }
 @media (max-width:600px) {
 
@@ -82,7 +83,7 @@ height: 250vh;
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    height:470vh;
+    height: 650vh;
     }
     
 
@@ -99,7 +100,7 @@ height: 250vh;
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    height: 470vh;
+    height: 620vh;
     }
     
 
@@ -172,8 +173,8 @@ font-size:15px;
     .mummy_container  div{
 
         border: solid; 
-        width: 200px;
-        height:200px ;
+        
+        height:150px ;
     
        
     }
@@ -190,7 +191,6 @@ font-size:15px;
     font-size: 2em;
     font-family:'Courier New', Courier, monospace ;
     text-shadow: -5px 1px 10px black;
-    margin-top: 40px;
 
 }
 
@@ -208,6 +208,12 @@ margin-bottom: 30px;
     
 
 }
+
+
+
+
+
+
 
 .last_div{
     margin-top: 40px;
