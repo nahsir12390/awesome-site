@@ -61,6 +61,9 @@ nav ul li ul li{
 
 
 
+
+
+
 body{
     display: flex;
 
@@ -70,7 +73,7 @@ background-position:100%;
 background-size: cover;
 flex-direction: column;
 background-repeat: no-repeat;
-height: 180vh;
+height: 250vh;
 }
 @media (max-width:600px) {
 
@@ -82,7 +85,7 @@ height: 180vh;
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    height: 650vh;
+    height:vh;
     }
     
 
@@ -99,7 +102,7 @@ height: 180vh;
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    height: 620vh;
+    height: 400vh;
     }
     
 
@@ -172,7 +175,7 @@ font-size:15px;
     .mummy_container  div{
 
         border: solid; 
-        
+        width: 150px;
         height:150px ;
     
        
@@ -211,7 +214,8 @@ margin-bottom: 30px;
 
 
 
-.born_1{
+
+/*.born_1{
     border: solid; 
     width: 150px;
     height:150px ;
@@ -243,8 +247,66 @@ margin-bottom: 30px;
    
 }
 
+.born_6{
+    border: solid; 
+    width: 150px;
+    height:150px ;
 
+}
+.born_7{
+    border: solid; 
+    width: 150px;
+    height:150px ;
 
+}
+.born_8{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_9{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_10{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_11{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_12{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_13{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_14{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}
+.born_15{
+    border: solid; 
+    width: 150px;
+    height:150px ;
+
+}*/
 
 
 .last_div{
@@ -296,10 +358,6 @@ margin-bottom: 30px;
 
 
 
-
-
-
-
 /*this section is for the footer*/
 
 
@@ -307,11 +365,13 @@ margin-bottom: 30px;
 
 
 footer{
+  
     display: flex;
                 background-color: silver;
         margin-top: auto;
+        
         justify-content:center;
-        align-items: center;
+        align-items:center;
         flex-direction: column;
             }
             .last_div1 p b{ 
