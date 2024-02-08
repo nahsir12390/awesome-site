@@ -59,15 +59,21 @@ nav ul li ul li{
     
 }
 
+
+
+
+
+
 body{
     display: flex;
 
-    background-image: url(pexels-lukas-574069.jpg);
+  /*  background-image: url(pexels-lukas-574069.jpg);*/
+  background: #757176;
 background-position:100%;
 background-size: cover;
 flex-direction: column;
 background-repeat: no-repeat;
-height: 180vh;
+height: 250vh;
 }
 @media (max-width:600px) {
 
@@ -79,17 +85,36 @@ height: 180vh;
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    height: 650vh;
+    height:vh;
     }
     
 
 }
+
+
+@media (max-width:500px) {
+
+    body{
+        display: flex;
+    
+        /*background-image: url(pexels-lukas-574069.jpg);*/
+    background-position:100%;
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 400vh;
+    }
+    
+
+}
+
+
 @media (min-width:700px) {
 
     body{
         display: flex;
     
-        background-image: url(pexels-lukas-574069.jpg);
+       
     background-position:100%;
     background-size: cover;
     flex-direction: column;
@@ -150,7 +175,7 @@ font-size:15px;
     .mummy_container  div{
 
         border: solid; 
-        width: 100%;
+        width: 150px;
         height:150px ;
     
        
@@ -185,6 +210,11 @@ margin-bottom: 30px;
     
 
 }
+
+
+
+
+
 /*.born_1{
     border: solid; 
     width: 150px;
@@ -318,6 +348,7 @@ margin-bottom: 30px;
     }
     
 }
+
 
 
 
